@@ -40,6 +40,7 @@ public class BankTest {
 
     /**
      * Test of openRekening method, of class Bank.
+     * Als city en Name leeg zijn fout melding geven
      */
     @Test
     public void testOpenRekening() {
@@ -50,7 +51,7 @@ public class BankTest {
         int expResult = 0;
         int result = instance.openRekening(name, city);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 

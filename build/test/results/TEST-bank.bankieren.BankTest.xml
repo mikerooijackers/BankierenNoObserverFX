@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="4" failures="0" hostname="MacBook-Pro-van-Mike.local" name="bank.bankieren.BankTest" skipped="0" tests="4" time="0.069" timestamp="2014-06-03T09:33:10">
+<testsuite errors="4" failures="0" hostname="MacBook-Pro-van-Mike.local" name="bank.bankieren.BankTest" skipped="0" tests="4" time="0.081" timestamp="2014-06-03T09:48:00">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="NL" />
@@ -51,6 +51,7 @@
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Mac OS X" />
+    <property name="test.class" value="bank.bankieren.BankTest" />
     <property name="libs.beans-binding.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/beansbinding-1.2.1.jar" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
     <property name="ap.proc.none.internal" value="" />
@@ -72,7 +73,7 @@
     <property name="copylibs.rebase" value="true" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bank.bankieren.BankTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/test/results/TEST-bank.bankieren.BankTest.xml crashfile=/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/junitvmwatcher3709127124994387752.properties propsfile=/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/junit3212965193235715603.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bank.bankieren.BankTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/test/results/TEST-bank.bankieren.BankTest.xml crashfile=/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/junitvmwatcher4004931901082206493.properties propsfile=/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/junit4723619020837985724.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -102,7 +103,6 @@
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/endorsed" />
     <property name="libs.hibernate-persistencemodelgen.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/hibernate/hibernate-jpamodelgen-1.1.1.Final.jar" />
     <property name="libs.groovy-all.src" value="" />
-    <property name="test.includes" value="bank/bankieren/BankTest.java" />
     <property name="netbeans.dynamic.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/core.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/org-openide-filesystems.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/core_ja.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/core_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/core_ru.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/core_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_ja.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_ru.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/org-netbeans-upgrader.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/core_nb.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/core_nb_ja.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/core_nb_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/core_nb_ru.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/core_nb_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/org-netbeans-upgrader_ja.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/org-netbeans-upgrader_ru.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb/core/locale/org-netbeans-upgrader_zh_CN.jar" />
     <property name="libs.Slick2D.src" value="" />
     <property name="libs.cdc-agui-swing-layout.maven-pom" value="" />
@@ -132,7 +132,7 @@
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
     <property name="libs.Slick2D.classpath" value="/Users/Mike/Documents/slick2d/lib/ibxm.jar:/Users/Mike/Documents/slick2d/lib/jinput.jar:/Users/Mike/Documents/slick2d/lib/jnlp.jar:/Users/Mike/Documents/slick2d/lib/jogg-0.0.7.jar:/Users/Mike/Documents/slick2d/lib/jorbis-0.0.15.jar:/Users/Mike/Documents/slick2d/lib/lwjgl.jar:/Users/Mike/Documents/slick2d/lib/lwjgl_util.jar:/Users/Mike/Documents/slick2d/lib/lwjgl_util_applet.jar:/Users/Mike/Documents/slick2d/lib/natives-linux.jar:/Users/Mike/Documents/slick2d/lib/natives-mac.jar:/Users/Mike/Documents/slick2d/lib/natives-windows.jar:/Users/Mike/Documents/slick2d/lib/slick-examples.jar:/Users/Mike/Documents/slick2d/lib/slick.jar:/Users/Mike/Documents/slick2d/lib/tinylinepp.jar" />
-    <property name="javac.includesfile.binary" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/null874856912" />
+    <property name="javac.includesfile.binary" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/null442968758" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="ant.file.type.BankierenNoObserverFX-impl" value="file" />
     <property name="mkdist.disabled" value="false" />
@@ -146,6 +146,7 @@
     <property name="libs.junit.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/junit-3.8.2.jar" />
     <property name="libs.jaxb.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/docs/jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/antlr-2.7.2.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/bsf-2.3.0.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-beanutils-1.8.0.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-chain-1.2.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-digester-1.8.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-fileupload-1.1.1.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-io-1.1.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-logging-1.0.4.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/commons-validator-1.3.1.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/jstl-1.0.2.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/oro-2.0.8.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/standard-1.0.6.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-core-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-el-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-extras-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-faces-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-mailreader-dao-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-scripting-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-taglib-1.3.10.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/struts/struts-tiles-1.3.10.jar" />
+    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
     <property name="javac.includes.binary" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/test/classes/bank/bankieren/BankTest.class" />
     <property name="ant.home" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant" />
     <property name="libs.junit_4.src" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/docs/junit-4.10-sources.jar" />
@@ -183,7 +184,7 @@
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.spring-framework300.maven-pom" value="" />
     <property name="run.test.classpath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/plugin.jar:build/classes:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/modules/ext/junit-4.10.jar:build/test/classes" />
-    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="ant.project.invoked-targets" value="debug-test" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/docs/swing-layout-1.0.4-doc.zip" />
     <property name="sun.java2d.dpiaware" value="true" />
@@ -192,6 +193,7 @@
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
     <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="/Applications/NetBeans/glassfish-4.0/javadb/lib/derby.jar:/Applications/NetBeans/glassfish-4.0/javadb/lib/derbyclient.jar:/Applications/NetBeans/glassfish-4.0/javadb/lib/derbynet.jar" />
+    <property name="jpda.address" value="localhost:51881" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
     <property name="libs.cdc-ant-utils.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project.jar" />
     <property name="libs.eclipselink.javadoc" value="" />
@@ -290,8 +292,8 @@
     <property name="ant.file.BankierenFX300" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build.xml" />
     <property name="libs.jsp-compiler.src" value="" />
     <property name="libs.LibGDX.src" value="/Users/Mike/Documents/library/sources/gdx-sources.jar" />
-    <property name="have.sources" value="true" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib" />
+    <property name="have.sources" value="true" />
     <property name="debug.classpath" value="dist/BankierenNoObserverFX.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/plugin.jar:build/classes" />
     <property name="javadoc.private" value="false" />
     <property name="test.src.dir" value="test" />
@@ -329,10 +331,10 @@
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="libs.cdc-agui-swing-layout.javadoc" value="" />
     <property name="libs.javac-api.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/nb-javac-api.jar" />
-    <property name="java.version" value="1.8.0_05" />
     <property name="libs.nokiaS80-ant-utils.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-nokiaS80.jar" />
-    <property name="run.jvmargs.ide" value="" />
+    <property name="java.version" value="1.8.0_05" />
     <property name="javadoc.version" value="false" />
+    <property name="run.jvmargs.ide" value="" />
     <property name="libs.MySQLDriver.javadoc" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="source.encoding" value="UTF-8" />
@@ -340,8 +342,8 @@
     <property name="ap.cmd.line.internal" value="" />
     <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
     <property name="libs.jsp-compilation-syscp.javadoc" value="" />
-    <property name="libs.junit.maven-pom" value="" />
     <property name="libs.LibGDX.javadoc" value="/Users/Mike/Documents/library/docs" />
+    <property name="libs.junit.maven-pom" value="" />
     <property name="ant.file.type.jfx-impl" value="file" />
     <property name="libs.eclipselinkmodelgen.javadoc" value="" />
     <property name="libs.javaee-endorsed-api-7.0.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/javaee7-endorsed/javax.annotation-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/javaee7-endorsed/javax.xml.soap-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/javaee7-endorsed/jaxb-api-osgi.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/javaee7-endorsed/jaxws-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/javaee7-endorsed/jsr181-api.jar" />
@@ -349,22 +351,22 @@
     <property name="libs.struts.maven-pom" value="" />
     <property name="ant.file.jfx-impl" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/nbproject/jfx-impl.xml" />
     <property name="netbeans.home+have.tests" value="true" />
-    <property name="annotation.processing.processor.options" value="" />
     <property name="javafx.deploy.adddesktopshortcut" value="false" />
+    <property name="annotation.processing.processor.options" value="" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
-    <property name="work.dir" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX" />
     <property name="libs.cdc-ant-utils.src" value="" />
-    <property name="libs.jaxb.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/jaxb-impl.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/jaxb-xjc.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/jaxb1-impl.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/activation.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/api/jaxb-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
+    <property name="work.dir" value="/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX" />
     <property name="compile.on.save.unsupported.javafx" value="true" />
+    <property name="libs.jaxb.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/jaxb-impl.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/jaxb-xjc.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/jaxb1-impl.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/activation.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/api/jaxb-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="libs.spring-webmvc3.0.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/spring-3.0/spring-webmvc-3.2.3.RELEASE.jar" />
     <property name="libs.swing-layout.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/modules/ext/swing-layout-1.0.4.jar" />
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.restlib.src" value="" />
-    <property name="javac.source" value="1.8" />
     <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.8" />
     <property name="javafx.fallback.class" value="com.javafx.main.NoJavaFXFallback" />
     <property name="line.separator" value="&#xa;" />
     <property name="libs.hibernate-persistence.src" value="" />
@@ -390,31 +392,30 @@
     <property name="libs.savaje-ant-utils.javadoc" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
     <property name="libs.struts.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/docs/struts-1.3.10-javadoc.zip" />
-    <property name="ignore.failing.tests" value="true" />
     <property name="javafx.enable.concurrent.external.runs" value="false" />
     <property name="libs.cdc-ant-utils.maven-pom" value="" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
     <property name="libs.primefaces.src" value="" />
-    <property name="libs.cdc-agui-swing-layout.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/cdc-agui-swing-layout.jar" />
     <property name="javafx.deploy.embedJNLP" value="true" />
+    <property name="libs.cdc-agui-swing-layout.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/cdc-agui-swing-layout.jar" />
     <property name="dist.dir" value="dist" />
     <property name="libs.groovy-all.javadoc" value="" />
     <property name="testng.debug.mode" value="" />
     <property name="libs.groovy-all.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/groovy/modules/ext/groovy-all.jar" />
-    <property name="libs.sjmc-ant-utils.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-sjmc.jar" />
     <property name="javac.fork" value="false" />
+    <property name="libs.sjmc-ant-utils.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-sjmc.jar" />
     <property name="libs.JMUnit4CLDC10.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility/modules/ext/jmunit4cldc10-1.2.1.jar" />
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
     <property name="default.javac.source" value="1.8" />
     <property name="platforms.JDK_1.7.compiler" value="modern" />
     <property name="debug-transport-by-os" value="dt_socket" />
-    <property name="libs.MySQLDriver.src" value="" />
     <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="libs.MySQLDriver.src" value="" />
     <property name="libs.ant-contrib.maven-pom" value="" />
     <property name="platforms.JDK_1.7.bootclasspath" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/System/Library/Java/Extensions/AppleScriptEngine.jar:/System/Library/Java/Extensions/dns_sd.jar:/System/Library/Java/Extensions/j3daudio.jar:/System/Library/Java/Extensions/j3dcore.jar:/System/Library/Java/Extensions/j3dutils.jar:/System/Library/Java/Extensions/jai_codec.jar:/System/Library/Java/Extensions/jai_core.jar:/System/Library/Java/Extensions/mlibwrapper_jai.jar:/System/Library/Java/Extensions/MRJToolkit.jar:/System/Library/Java/Extensions/QTJava.zip:/System/Library/Java/Extensions/vecmath.jar" />
     <property name="libs.nokiadeployment.javadoc" value="" />
-    <property name="build.test.results.dir" value="build/test/results" />
     <property name="java.runtime.version" value="1.8.0_05-b13" />
+    <property name="build.test.results.dir" value="build/test/results" />
     <property name="libs.ejb3-persistence.javadoc" value="" />
     <property name="javafx.run.inbrowser" value="&lt;Default System Browser&gt;" />
     <property name="jna.platform.library.path" value="/usr/lib:/usr/lib" />
@@ -426,24 +427,24 @@
     <property name="user.timezone" value="Europe/Amsterdam" />
     <property name="nb.junit.single" value="false" />
     <property name="do.jar" value="true" />
+    <property name="libs.ant-contrib.src" value="" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
-    <property name="libs.ant-contrib.src" value="" />
     <property name="netbeans.dirs" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/nb:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ergonomics:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/apisupport:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/webcommon:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/websvccommon:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/mobility:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/profiler:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/python:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/php:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/identity:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/harness:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/cnd:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/dlight:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/groovy:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extra:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/javacard:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/javafx:" />
     <property name="libs.Slick2D.javadoc" value="" />
     <property name="libs.jstl.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.jsf20.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/docs/javaee-doc-api.jar" />
     <property name="java.ext.dirs" value="/Users/Mike/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
     <property name="libs.metro.src" value="" />
-    <property name="endorsed.classpath" value="" />
     <property name="libs.savaje-ant-utils.maven-pom" value="" />
+    <property name="endorsed.classpath" value="" />
     <property name="libs.semc-ant-utils.src" value="" />
     <property name="libs.absolutelayout.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/AbsoluteLayout.jar" />
     <property name="excludes" value="" />
     <property name="libs.metro.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/activation.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/metro/webservices-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/metro/webservices-extra-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/metro/webservices-extra.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/metro/webservices-rt.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/metro/webservices-tools.jar" />
     <property name="libs.restlib.maven-pom" value="" />
-    <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="java.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/plugin.jar:/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/classes:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/modules/ext/junit-4.10.jar:/Users/Mike/Dropbox/school/P6/GSO32/Week 6/BankierenNoObserverFX/build/test/classes:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant/lib/ant-launcher.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant/lib/ant.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant/lib/ant-junit.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant/lib/ant-junit4.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar" />
     <property name="libs.cdc-pp-awt-layout.maven-pom" value="" />
@@ -453,16 +454,16 @@
     <property name="manifest.custom.permissions" value="" />
     <property name="libs.javaee-api-7.0.maven-pom" value="" />
     <property name="libs.JMUnit4CLDC11.maven-pom" value="" />
-    <property name="sun.awt.enableExtraMouseButtons" value="true" />
     <property name="main.class.available" value="true" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
     <property name="auxiliary.org-netbeans-spi-editor-hints-projects.perProjectHintSettingsFile" value="nbproject/cfg_hints.xml" />
     <property name="libs.LibGDX.maven-pom" value="" />
     <property name="javafx.deploy.allowoffline" value="true" />
     <property name="libs.restlib.javadoc" value="" />
-    <property name="nb.internal.action.name" value="test.single" />
+    <property name="nb.internal.action.name" value="debug.test.single" />
     <property name="libs.JAXB-ENDORSED.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/jaxb/api/jaxb-api.jar" />
-    <property name="libs.javaee-api-7.0.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.eclipselink.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/eclipselink/eclipselink.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.1.v20130918-f2b9fc5.jar" />
+    <property name="libs.javaee-api-7.0.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/docs/javaee-doc-api.jar" />
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="libs.beans-binding.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/docs/beansbinding-1.2.1-doc.zip" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
@@ -473,16 +474,16 @@
     <property name="run.jvmargs" value="" />
     <property name="libs.ejb3-persistence.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/java/modules/ext/hibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
     <property name="libs.hibernate-persistencemodelgen.javadoc" value="" />
-    <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="libs.spring-framework.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="libs.testng.javadoc" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/platform/docs/testng-6.8.1-javadoc.zip" />
     <property name="libs.PostgreSQLDriver.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/ide/modules/ext/postgresql-9.2-1002.jdbc4.jar" />
     <property name="libs.jsf12.maven-pom" value="" />
     <property name="libs.junit.src" value="" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="main.class" value="com.javafx.main.Main" />
-    <property name="build.dir" value="build" />
     <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
     <property name="libs.jsp-compilation.classpath" value="/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant/lib/ant.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/servlet3.1-jsp2.3-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/glassfish-jspparser-4.0.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/jsf-2_2/javax.faces.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/enterprise/modules/ext/jstl-api.jar:/Applications/NetBeans/NetBeans 7.4.app/Contents/Resources/NetBeans/extide/ant/lib/ant-launcher.jar" />
     <property name="ant.file.type.BankierenFX300" value="file" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.1 compiled on May 15 2013" />
@@ -498,22 +499,22 @@
   </properties>
   <testcase classname="bank.bankieren.BankTest" name="testOpenRekening" time="0.007">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at bank.bankieren.BankTest.testOpenRekening(BankTest.java:51)
+	at bank.bankieren.BankTest.testOpenRekening(BankTest.java:52)
 </error>
   </testcase>
   <testcase classname="bank.bankieren.BankTest" name="testGetRekening" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at bank.bankieren.BankTest.testGetRekening(BankTest.java:66)
+	at bank.bankieren.BankTest.testGetRekening(BankTest.java:67)
 </error>
   </testcase>
   <testcase classname="bank.bankieren.BankTest" name="testMaakOver" time="0.003">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at bank.bankieren.BankTest.testMaakOver(BankTest.java:83)
+	at bank.bankieren.BankTest.testMaakOver(BankTest.java:84)
 </error>
   </testcase>
   <testcase classname="bank.bankieren.BankTest" name="testGetName" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at bank.bankieren.BankTest.testGetName(BankTest.java:97)
+	at bank.bankieren.BankTest.testGetName(BankTest.java:98)
 </error>
   </testcase>
   <system-out><![CDATA[openRekening
