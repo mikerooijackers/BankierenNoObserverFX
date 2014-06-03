@@ -23,6 +23,7 @@ public class Bank implements IBank {
 		this.name = name;	
 	}
 
+        @Override
 	public int openRekening(String name, String city) {
 		if (name.equals("") || city.equals(""))
 			return -1;
@@ -44,10 +45,12 @@ public class Bank implements IBank {
 		return klant;
 	}
 
+        @Override
 	public IRekening getRekening(int nr) {
 		return accounts.get(nr);
 	}
 
+        @Override
 	public boolean maakOver(int source, int destination, Money money)
 			throws NumberDoesntExistException {
 		if (source == destination)
