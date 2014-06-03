@@ -19,6 +19,9 @@ import static org.junit.Assert.*;
  */
 public class BankTest {
     
+    private IBank bank1, bank2;
+    private int rekening1, rekening2, rekening3;
+    
     public BankTest() {
     }
     
@@ -32,6 +35,10 @@ public class BankTest {
     
     @Before
     public void setUp() {
+        bank1 = new Bank("test1");
+        rekening1 = bank1.openRekening("Mike", "Tilburg");
+        rekening2 = bank1.openRekening("Gino", "Tilburg");
+        rekening3 = bank1.openRekening("Vincent", "Tilburg");
     }
     
     @After
@@ -44,15 +51,15 @@ public class BankTest {
      */
     @Test
     public void testOpenRekening() {
-        System.out.println("openRekening");
-        String name = "";
-        String city = "";
-        Bank instance = null;
-        int expResult = 0;
-        int result = instance.openRekening(name, city);
-        assertEquals(expResult, result);
-        
-        fail("The test case is a prototype.");
+        int rTest = bank1.openRekening("Mike", "Tilburg");
+        boolean bool = bank1.getRekening(rekening1).getEigenaar().equals(bank1.getRekening(rTest).getEigenaar());
+        assertTrue("De Klant objecten (eigenaar) moet hetzelfde zijn", bool);
+
+        int openRekening = bank1.openRekening("", "Tilburg");
+        assertEquals("Naam mag niet leeg zijn", openRekening, -1);
+
+        openRekening = bank1.openRekening("Mike", "");
+        assertEquals("Woonplaats mag niet leeg zijn", openRekening, -1);
     }
 
     /**
@@ -60,14 +67,9 @@ public class BankTest {
      */
     @Test
     public void testGetRekening() {
-        System.out.println("getRekening");
-        int nr = 0;
-        Bank instance = null;
-        IRekening expResult = null;
-        IRekening result = instance.getRekening(nr);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertNotNull("Rekeningnummer moet geen null zijn", bank1.getRekening(rekening1));
+        assertNull("Rekeningnummer moet null zijn", bank1.getRekening(0));
+        assertEquals("Rekening is niet geinitaliseerd",bank1.getRekening(rekening1).getNr(), rekening1);
     }
 
     /**
@@ -75,16 +77,16 @@ public class BankTest {
      */
     @Test
     public void testMaakOver() throws Exception {
-        System.out.println("maakOver");
-        int source = 0;
-        int destination = 0;
-        Money money = null;
-        Bank instance = null;
-        boolean expResult = false;
-        boolean result = instance.maakOver(source, destination, money);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Money m1 = bank1.getRekening(rekening1).getSaldo();
+        Money m2 = bank1.getRekening(rekening2).getSaldo();
+        Money mPositief = new Money(1000, Money.EURO);
+        Money mNegatief = new Money(-1000, Money.EURO);
+
+        Boolean bool = bank1.maakOver(rekening1, rekening2, mPositief);
+
+        assertEquals("Geld is niet van r1 afgeschreven", bank1.getRekening(rekening1).getSaldo(), Money.sum(m1, mNegatief));
+        assertEquals("Geld is niet op r2 gezet", bank1.getRekening(rekening2).getSaldo(), Money.sum(m2, mPositief));
+        assertTrue("Geld moet zijn overgemaakt", bool);
     }
 
     /**
@@ -92,13 +94,7 @@ public class BankTest {
      */
     @Test
     public void testGetName() {
-        System.out.println("getName");
-        Bank instance = null;
-        String expResult = "";
-        String result = instance.getName();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals("Hoort de naam 'test1' te hebben", bank1.getName(), "test1");
     }
     
 }
